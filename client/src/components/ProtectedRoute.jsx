@@ -2,8 +2,7 @@ import React from 'react'
 import { Navigate, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import axios from "axios";
-import {getToken, removeToken, storeIsAdmin} from "../services/localStorageServices.js"
+import {getToken, removeToken} from "../services/localStorageServices.js"
 import {setUserInfo,unsetUserInfo} from "../features/userSlice.js"
 import { getLoggedUser } from '../services/userAuthAPI.js';
 const ProtectedRoute = (props) => {

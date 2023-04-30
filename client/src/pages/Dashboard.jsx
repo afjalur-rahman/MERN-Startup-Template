@@ -9,9 +9,6 @@ import TrackChangesSharpIcon from '@mui/icons-material/TrackChangesSharp';
 import BadgeSharpIcon from '@mui/icons-material/BadgeSharp';
 
 
-import { getDetails} from "../services/LeadAPI";
-import { useEffect, useState } from "react";
-import { useSelector } from "react-redux";
 
 const Dashboard = () => {
  
